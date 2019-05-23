@@ -1,2 +1,4 @@
 parameters:
-  name: "test1"
+  all_configs:
+    name: 
+      test1: test1
