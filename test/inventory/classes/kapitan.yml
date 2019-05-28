@@ -4,7 +4,7 @@ parameters:
     vars:
       target: ${target}
     compile:
-      - output_path: manifests
+      - output_path: ${features}
         output_type: json
         input_type: jsonnet
         input_paths:

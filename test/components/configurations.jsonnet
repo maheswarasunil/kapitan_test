@@ -1,7 +1,10 @@
 local kap = import "lib/kapitan.libjsonnet";
 local inv = kap.inventory();
-local target = inv.parameters.target;
+
+local autobuild = {
+    name: inv.parameters.all_configs,
+};
 
 {
-    configurations: inv.parameters.all_configs,
+    autobuild: autobuild,
 }
