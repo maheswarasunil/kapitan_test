@@ -1,0 +1,10 @@
+parameters:
+  "main":
+    "home": "/home/ubuntu"
+    "error_path": "/var/log/main.log"
+  "1.2":
+    "home": "/home/app"
+    "error_path": "/var/log/app.log"
+  "1.3":
+    "home": "/home/app1"
+    "error_path": "/var/log/app1.log"
