@@ -1,0 +1,10 @@
+classes:
+  - kapitan
+  - web
+  - db
+  
+parameters:
+  target: app1
+  branches: 
+    - main
+    - 1.2
